@@ -1,0 +1,121 @@
+.main{
+margin: -10px;
+padding-left: 70px;	
+padding-right: 70px; 	
+background: linear-gradient(to bottom, #30546E,#30005f );
+}
+.logo{
+	background: linear-gradient(to bottom right, #30005f, #30546E);
+}
+.logo h2{
+color: white;	
+	float: right;
+z-index: 1000;
+padding-right: 100px;
+}
+
+.slider{
+	margin:50px
+	auto;width:500px;
+	height:300px;
+	overflow:hidden;
+	position:relative
+}
+.slider1{
+	position:absolute;
+	animation:round 10s infinite;
+	opacity:0;
+	width:100%
+}
+@keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+img:nth-child(1){animation-delay:10s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:4s}
+img:nth-child(4){animation-delay:0}
+@media(min-width:0px) and (max-width:320px) {
+.slider{width:80%;height:290px}
+}
+@media(min-width:421px) and (max-width:580px) {
+.slider{width:80%;height:290px}
+}
+.top{
+	background: linear-gradient(to bottom right, #D6C8FF, #30546E);
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.info1{
+	
+	background: linear-gradient(to bottom right, #D6C8FF, #30546E);
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	}
+.tovar{
+	display: flex;
+	background: linear-gradient(to bottom right, #D6C8FF, #30546E);
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.tovar table{
+	text-align: center;
+	border-color: black;
+	display: flex;
+
+}
+.Comment {
+	text-align: center	;
+	margin: 0 auto;
+	display: flex;
+	background: linear-gradient(to bottom right, #D6C8FF, #30546E);
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 40px;
+}
+
+.Comment fieldset{
+	
+	margin: 0 auto;
+}
+.com1{
+	width: 700px;
+	height: 250px;
+}
+.body{
+	background-color: white;
+	padding-bottom: 50px;
+}
+.kons{
+	text-align: center	;
+	margin: 0 auto;
+	display: flex;
+	margin-left: 100px;
+	margin-right: 100px;
+	background: linear-gradient(to bottom right, #D6C8FF, #30546E);
+}
+.kons table{
+	display: flex;	
+	text-align: center;
+	border-color: black;
+	display: flex;
+}
+#upbutton{
+	position: 	fixed;	
+	width: 	30px;
+	height: 30px;
+	border-radius: 30px;
+	background-color: white;
+	right:20px;
+	bottom: 20px;
+	text-align: center;	
+	cursor: pointer;	
+}
+.footer{
+	color: white;
+	text-align: center;
+	background: linear-gradient(to bottom, #30546E,#30005f );
+}
